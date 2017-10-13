@@ -1,0 +1,58 @@
+//META{"name":"nuclearempire2.0","description":"BetterDiscord Theme Created by Phantom_Gamer_17","author":"Phantom_Gamer_17","version":"1.0"}*//{}
+
+
+@import url(https://gitcdn.xyz/repo/themoonisacheese/themer.js/master/themer.js.css);
+/* Backgrounds */
+.app,
+.callout-backdrop {
+	background-image: url("https://cdn.discordapp.com/attachments/210432874405560320/368211828427325440/image.jpg");
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.bda-backdrop {
+	background: url("https://cdn.discordapp.com/attachments/210432874405560320/368211828427325440/image.jpg");
+	background-size: cover!important;
+}
+
+#pubs-container:before {
+	background: url("https://cdn.discordapp.com/attachments/210432874405560320/368211828427325440/image.jpg")!important;
+	background-size: cover!important;
+}
+.theme-dark .chat{background: transparent;}
+
+.layers, .layer { background: transparent !important; }
+
+.mentioned .mention, .mentioned .mention:hover {
+  background: transparent !important;
+}
+
+.mention:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ac00b9;
+}
+
+.message-group .comment .markup .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-1I0lx8 {
+  color: #00e5ff;
+  animation: rainbow 3s infinite linear;
+}
+
+@keyframes rainbow {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+.guilds-wrapper .guilds .friends-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://cdn.discordapp.com/attachments/262024225089519617/368255368008040451/nukepfp.png);
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
