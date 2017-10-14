@@ -23,37 +23,73 @@
 
 .layers, .layer { background: transparent !important; }
 
-.mentioned .mention, .mentioned .mention:hover {
-  background: transparent !important;
+.guilds-wrapper{width: 125px;}
+.guilds-wrapper .scroller-wrap{width: 150px;}
+.guilds-wrapper .guilds {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    align-content: flex-start;
 }
 
-.mention:hover {
-  cursor: pointer;
-  color: #fff;
-  background-color: #ac00b9;
+.guilds-wrapper .guilds .guild {
+	margin-left: 8px;
+    margin-top: 8px;
 }
 
-.message-group .comment .markup .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-1I0lx8 {
-  color: #00e5ff;
-  animation: rainbow 3s infinite linear;
+.guilds-wrapper .guilds .guild.unread::before {
+	left: -2px;
+    top: 5px;
+    z-index:9000;
 }
 
-@keyframes rainbow {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-
-  to {
-    -webkit-filter: hue-rotate(360deg);
-  }
+.guilds-wrapper .guilds .guild:first-child {
+    position: relative; 
+    left: 0;
+    margin: auto;
+    margin-top: 15px;
 }
 
-.guilds-wrapper .guilds .friends-icon {
-    width: 50px;
-    height: 50px;
-    background-image: url(https://cdn.discordapp.com/attachments/262024225089519617/368255368008040451/nukepfp.png);
-    background-size: 100%;
-    background-position: 100%;
-    background-repeat: no-repeat;
+#bd-pub-li {
+    position: absolute;
+    top: 96px;
+    left: 35px;
+}
+
+#bd-pub-li #bd-pub-button {
+    position:absolute;
+    width: 100%;
+	text-align: center;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+	position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+	position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+    display: none;
+}
+
+.guilds-wrapper .guilds .guild {
+	position: relative;
+}
+
+.guilds-wrapper .guilds .dms {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+    left: 0;
 }
 
