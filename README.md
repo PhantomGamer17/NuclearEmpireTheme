@@ -1,4 +1,5 @@
 # NuclearEmpireTheme
+>NOTICE: Added a few new additions to the theme!
 >NOTICE: This Theme updates monthly!
 
 A Nuclear-design inspired theme for BetterDiscord.
