@@ -94,23 +94,7 @@
     left: 0;
 }
 
-/* Footer(Removable) */
-.container-iksrDt:after {
-   content: "Theme created by: Phantom_Gamer_17" !important;
-    color: white;
-    position: relative;
-    left: 105%;
-    bottom: -19px;
-    width: auto !important;
-    padding-top: 0px;
-    padding-right: 95%;
-    white-space: nowrap;
-}
-
-.container-iksrDt {
-    height: 7%;
-}
-
+/*DMs Pic*/
 .badge{
     background: green;
     color: #000000;
