@@ -2,6 +2,52 @@
 
 
 @import url(https://gitcdn.xyz/repo/themoonisacheese/themer.js/master/themer.js.css);
+/*Edit Fix*/
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.content .flex-spacer {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .chat>.content {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .chat {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.container-2OU7Cz {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+.theme-dark .channel-members {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.channel-members {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.channels-3g2vYe {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.guilds-wrapper {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.search .search-bar {
+    background-color: rgba(0, 0, 0, 0.17) !important;
+}
+.theme-dark .chat form {
+    background-color: rgba(0, 0, 0, 0.17) !important;
+}
+.container-iksrDt {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.container-3lnMWU {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
 /* Backgrounds */
 .app,
 .callout-backdrop {
