@@ -1,0 +1,157 @@
+//META{"name":"Nuclear Empire theme for Discord","description":"A BetterDiscord theme made for Nuclear Empire Discord Server","author":"Phantom_Gamer_17#1355","version":"1.0"}*//{}
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
+    background-color: transparent !important;
+}
+/* Background */
+
+/* Find an image which is a suitable size for the background. Once you have the picture, upload it to imgur.com. Once it has procecced right click the image and click open in new tab. Go to that new tab and select the URL. 
+It will look something simmilar to "https://i.imgur.com/kZn7d4b.jpg" Put that URL in the place of (YourURLHere) which is located on line "8". (Make sure to put it inside the brackets)*/
+.app {
+    background-image: url(https://i.imgur.com/LJ77ZWL.jpg) !Important; 
+    background-size:cover !important;
+}
+
+
+
+/*DoNotTouchThisUnlessYouKnowWhatYouAreDoing*/
+
+/*Transparency*/
+#voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels,
+ .guild-channels, .account, .friend-table-add-header, .chat, .content, .layers, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, 
+ .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .layer, .layers, 
+ .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, 
+ .theme-dark .channel-members, .layer, .layers {
+    background: transparent !important;
+}
+
+/* UserList */
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
+    background-color: transparent !important;
+}
+/* Background */
+
+.theme-dark .channel-members {
+    background-color: rgba(0, 0, 0, 1);/* This changes the color of the background for the userlist */
+}
+.theme-dark .channel-members h2 {
+    color: rgba(0, 0, 0, 1);/* This changes the color of the role titles on the userlist */
+    background-color: rgba(0, 0, 0, 1);/* This changes the color of the background for role titles on the userlist */
+    border-radius: 0px;/* Increase this to round the edges of the background */
+}
+.channel-members .member .member-activity {
+    color: rgba(0, 0, 0, 1);/* This changes the color of the activity text on the userlist */
+}
+span.member-username-inner {
+    color: white !important;/* This changes the color of the usernames on the userlist */
+}
+
+/* ChannelList */
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
+    background-color: transparent !important;
+}
+
+/*Use the website "http://htmlcolorcodes.com/" to find the RGB values for the colors you want, The A (seen below) at the end is the opacity, rated 0 (transparent) to 1 (Solid)*/
+
+/*ChannelList*/
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: rgba(0, 0, 0, 1); /*This changes the color of none selected, none hovered channels*/	
+}
+.nameSelectedText-32NDX5, .nameSelectedVoice-XpjYTw {
+    color: rgba(0, 0, 0, 1); /*This changes the color of selected channels*/
+}
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+	color:rgba(0, 0, 0, 1); /*This changes the color of muted channels*/
+}
+.nameHoveredText-2FFqiz {
+    color: rgba(0, 0, 0, 1); /*This changes the color of hovered text channels*/
+}
+.nameHoveredVoice-TIoHRJ {
+    color: rgba(0, 0, 0, 1); /*This changes the color of hovered voice channels*/
+}
+.nameLockedText-2fGz07 {
+    color: rgba(0, 0, 0, 1); /*This changes the color of locked text channels*/
+}
+.nameLockedVoice-wNOMNa {
+    color: rgba(0, 0, 0, 1); /*This changes the color of locked voice channels*/
+}
+
+
+/*Catagories*/
+.nameDefault-Lnjrwm {
+    color: rgba(0, 0, 0, 1); /*This changes the color of channel catagories*/
+}
+.nameCollapsed-3_ChMu {
+    color: rgba(0, 0, 0, 1); /*This changes the color of collapsed catagories*/
+}
+.iconDefault-xzclSQ {
+    color: rgba(0, 0, 0, 1); /*This changes the color of the arrow on catagories*/
+}
+.iconCollapsed-1INdMX {
+    color: rgba(0, 0, 0, 1); /*This changes the color of the arrow on collapsed catagories*/
+}
+.iconMuted-Hb4ttQ {
+    color: rgba(0, 0, 0, 1); /*This changes the color of the arrow on muted catagories*/
+}
+ .nameMuted-1n0LSj {
+    color: rgba(0, 0, 0, 1); /*This changes the color of  muted catagories*/
+}
+
+
+/*Catagory backgrounds*/
+.nameDefault-Lnjrwm {
+    background-color: rgba(0, 0, 0, 1); /*This changes the color of the background of channel catagories*/
+    border-radius: 0px /*higher this number to round the edges of the background*/
+	}
+.nameCollapsed-3_ChMu {
+    background-color: rgba(0, 0, 0, 1); /*This changes the color of the background of collapsed catagories*/
+	border-radius: 0px /*higher this number to round the edges of the background*/
+}
+
+/*DMs Pic*/
+.badge{
+    background: green;
+    color: #000000;
+}
+
+.friends-icon{
+	background: url("https://cdn.discordapp.com/attachments/262024225089519617/368255368008040451/nukepfp.png")!important;
+	background-size: cover!important;
+	}
+
+/*Mic*/
+.container-iksrDt .horizontal-2BEEBe div button[style$='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");'] {
+  background-image: url(https://rawgit.com/NFLD99/9b216f3a3cde1f5cead4a6d347850a07/raw/4ca4535d8f0b36724d781e4df7fe356a9a8b3366/mic2.svg)!important;
+  background-size: 60%!important;
+  background-position: 50%!important;
+  background-repeat: no-repeat!important;
+  background-color:var(-S-Colour)!important;
+}
+
+/*Mic disabled/muted*/
+.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");'] {
+  background-image: url(https://ditmcouk.ipage.com/noottech/discord-icons/green/green-muted.svg)!important;
+  background-size: 60%!important;
+  background-position: 50%!important;
+  background-repeat: no-repeat!important;
+  background-color:var(-S-Colour)!important;
+}
+ 
+/*Audio*/
+.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg");'] {
+  background-image: url(https://rawgit.com/NFLD99/f62a29bdd1002f41e596fe0d1fedbfb5/raw/cf014acceff7577a665260120ae8c2f9512f11b5/deafen.svg) !important;
+  background-size: 60%!important;
+  background-position: 50%!important;
+  background-repeat: no-repeat!important;
+  background-color:var(-S-Colour)!important;
+}
+/*Audio disabled/deafened*/
+.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg");'] {
+  background-image: url(https://ditmcouk.ipage.com/noottech/discord-icons/green/green-deafen.svg) !important;
+  background-size: 60%!important;
+  background-position: 50%!important;
+  background-repeat: no-repeat!important;
+  background-color:var(-S-Colour)!important;
+}
